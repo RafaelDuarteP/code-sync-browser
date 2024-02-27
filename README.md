@@ -18,7 +18,7 @@ This Python script provides a simple solution for automatically reloading a web 
     pip install watchdog selenium
     ```
 
-2. Download the script `web_page_auto_reloader.py`.
+2. Download the script `code_sync_browser.py`.
 
 ## Usage
 
@@ -31,7 +31,7 @@ This Python script provides a simple solution for automatically reloading a web 
 
 ### Example
 ```bash
-python web_page_auto_reloader.py -b chrome -p /path/to/watch -u http://example.com -e .html .css -r
+python code_sync_browser.py -b chrome -p /path/to/watch -u http://example.com -e .html .css -r
 ```
 
 ## License
